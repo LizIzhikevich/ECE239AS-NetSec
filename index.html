@@ -1,1 +1,407 @@
-<h1>Test</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/local.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700" rel="stylesheet">
+    <title>CS356: Topics in Computer and Network Security</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-10">
+          <h1>Topics in Computer and Network Security</h1>
+          <h3>Stanford CS 356, Fall 2024</h3>
+
+		  <p>CS 356 is graduate course that covers foundational work and
+		  current topics in computer and network security. The course consists
+		  of reading and discussing published research papers, presenting
+		  recent security work, and completing an original research
+		  project.</p>
+
+          <h2>📌 Course Information</h2>
+
+		  <p><b>Discussion:</b> M/W 3:00&ndash;4:20 PM.
+		  <a href="https://campus-map.stanford.edu/?id=04-510">Hewlett Teaching Center 1020</a>.
+		  <br/>⚠️ This course is based on <i>in-person discussion</i> of research.
+		  On time, in-person attendance and participation is required.</p>
+
+          <p><b>Instructor:</b> <a href="https://zakird.com">Zakir Durumeric</a>.
+             Office Hours: M/W 4:30&ndash;5:00 PM, after class.</p>
+
+		  <p><b>Course Assistant:</b> <a href="https://catherinehan.github.io/">Catherine Han</a>.
+		  Office hours by appointment.</p>
+
+          <p><b>Prerequisites:</b> CS 356 is open to all graduate students
+          as well as advanced undergraduate students.  While the course has no
+          official prerequisites, it requires a mature understanding of
+          software systems and networks. Students are expected to have taken
+		  <a href="https://cs155.stanford.edu">CS 155: Computer and
+          Network Security</a> or equivalent.</p>
+
+		  <p><b>Communication:</b> We use
+		  <a href="https://edstem.org/us/join/WKM7Jj">Ed Discussion</a> for announcements
+		  and discussion.  Students can <a href="https://stanforduniversity.qualtrics.com/jfe/form/SV_3Q683aY7zJcv6G9">submit
+          anonymous feedback</a> at any time.
+
+          <p><b>Submissions:</b> All course assignments are to be submitted through
+		  <a href="https://www.gradescope.com/courses/838819">Gradescope</a>. Enrollment code: <tt>5KD4V3</tt>.
+
+          <h2>🗓️ Topics and Schedule</h2>
+          <p>The tentative schedule and required readings for the class are below:</p>
+          <div class="papers">
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>9/23&nbsp;&nbsp;Introduction</h4>
+                <h5><a href="https://noncombatant.org/2016/01/28/against-security-nihilism/">Against Security Nihilism</a></h5>
+                <p>Blog Post. 2016. Chris Palmer.</p>
+                <h5><a href="https://factorable.net/weakkeys12.conference.pdf">Mining Your Ps and Qs: Detection of Widespread Weak Keys...</a></h5>
+				<p><i>SEC '12</i>. N. Heninger, Z. Durumeric, E. Wustrow, J.A. Halderman.</p>
+                <h5><a href="https://dl.acm.org/doi/pdf/10.1145/1273445.1273458">How to Read a Paper</a></h5>
+                <p>S. Keshav.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>9/25&nbsp;&nbsp;Web Privacy and Security</h4>
+                <h5><a href="https://dl.acm.org/doi/pdf/10.1145/2660267.2660347">
+                        The Web Never Forgets: Persistent Tracking Mechanisms in the...</a></h5>
+                <p><i>CCS '14</i>. Gunes Acar, Christian Eubank, Steven Englehardt, Marc Juarez, Arvind Narayanan, Claudia Diaz.</p>
+
+                <h5><a href="https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf">
+                        Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice</a></h5>
+                <p><i>CCS '15</i>. D. Adrian, K. Bhargavan, Z. Durumeric, P. Gaudry, M. Green,
+                   J.A. Halderman, N. Heninger, A. Springall, E. Thomé, L. Valenta,
+                   B. VanderSloot, E. Wustrow, S. Zanella-Beguelin, P. Zimmermann.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>9/30&nbsp;&nbsp;Usability [CH]</h4>
+                <h5><a href="https://www.usenix.org/system/files/conference/usenixsecurity13/sec13-paper_akhawe.pdf">
+                        Alice in Warningland: A Large-Scale Field Study of Browser Security</a></h5>
+                <p><i>SEC '13</i>. Devdatta Akhawe, Adrienne Porter Felt.</p>
+                <h5><a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43963.pdf">
+                        ...no one can hack my mind”: Comparing Expert and Non-Expert Security Practices</a></h5>
+                <p><i>SOUPS '15</i>. Iulia Ion, Rob Reeder, Sunny Consolvo.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>10/2&nbsp;&nbsp;Authentication and Phishing</h4>
+                <h5><a href="https://jbonneau.com/doc/DBCBW14-NDSS-tangled_web.pdf">
+                        The Tangled Web of Password Reuse</a></h5>
+                <p><i>NDSS '14</i>. Anupam Das, Joseph Bonneau, Matthew Caesar, Nikita Borisov, XiaoFeng Wang.</p>
+                <h5><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-ho.pdf">
+                        Detecting credential spearphishing in enterprise settings</a></h5>
+                <p><i>SEC '17</i>. Grant Ho, Aashish Sharma, Mobin Javed, Vern Paxson, David Wagner.</p>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col col-lg-6">
+                <h4>10/7&nbsp;&nbsp;Denial of Service</h4>
+                <h5><a href="https://cseweb.ucsd.edu/~savage/papers/UsenixSec01.pdf">
+                        Inferring Internet Denial-of-Service Activity</a></h5>
+                <p><i>SEC '01</i>. David Moore, Geoffrey Voelker, Stefan Savage.</p>
+                <h5><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">
+                        Understanding the Mirai Botnet</a></h5>
+                <p><i>SEC '17</i>. M. Antonakakis, T. April, M. Bailey, M. Bernhard, E. Bursztein, J. Cochran,
+                Z Durumeric, J.A. Halderman, L. Invernizzi, M. Kallitsis, D. Kumar, C. Lever,
+                Z. Ma, J. Mason, D. Menscher, C. Seaman, N. Sullivan, K. Thomas, Y. Zhou.
+              </div>
+              <div class="col col-lg-6">
+                <h4>10/9&nbsp;&nbsp;Spam and eCrime</h4>
+                <h5><a href="http://www.icir.org/christian/publications/2008-ccs-spamalytics.pdf">
+                        Spamalytics: An Empirical Analysis of Spam Marketing Conversion</a></h5>
+                <p><i>CCS '08</i>. Chris Kanich, Christian Kreibich, Kirill Levchenko, Brandon Enright,
+				Geoffrey Voelker, Vern Paxson, and Stefan Savage.</p>
+                <h5><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43798.pdf">
+                        Framing Dependencies Introduced by Underground Commoditization</a></h5>
+				<p><i>WEIS '15</i>. Kurt Thomas, Danny Huang, David Wang, Elie Bursztein, Chris Grier,
+                Thomas Holt, Christopher Kruegel, Damon McCoy, Stefan Savage, Giovanni Vigna.</p>
+			  </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>10/14&nbsp;&nbsp;Software Attacks</h4>
+				<h5><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6956567">
+						Hacking Blind</a>
+                <p><i>S&P '14</i>. Andrea Bittau, Adam Belay, Ali Mashtizadeh, David Mazieres, Dan Boneh.</p>
+                <h5><a href="https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf">
+                        SoK: Eternal War in Memory</a></h5>
+                <p><i>S&P '13</i>. Laszlo Szekeres, Mathias Payer, Tao Wei, Dawn Song.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>10/16&nbsp;&nbsp;Software Defenses</h4>
+				<h5><a href="https://dl.acm.org/doi/pdf/10.1145/3062341.3062363?theme=2019">Bringing the Web up to Speed with WebAssembly</a></h5>
+				<p><i>PLDI '17</i>. A. Haas, A. Rossberg, D. Schuff, B. Titzer, M. Holman, D. Gohman, L. Wagner, A. Zakai, J. Bastien.</p>
+                <h5><a href="https://sing.stanford.edu/site/publications/levy17-tock.pdf">
+                        Multiprogramming a 64 kB Computer Safely and Efficiently</a></h5>
+                <p><i>SOSP '17</i>. Amit Levy, Bradford Campbell, Branden Ghena, Daniel
+                B. Giffin, Pat Pannuto, Prabal Dutta, Philip Levis.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>10/21&nbsp;&nbsp;Malware and Supply Chain</h4>
+				<h5><a href="https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-1_23055_paper.pdf">
+						Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages</a></h5>
+				<p><i>NDSS '21</i>. Ruian Duan, Omar Alrawi, Ranjita Pai Kasturi, Ryan Elder, Brendan Saltaformaggio, Wenke Lee.</p>
+
+				<h5><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10179304">SoK: Taxonomy of Attacks on Open-Source Software Supply Chains</a></h5>
+				<p><i>S&P '23</i>. Piergiorgio Ladisa∗‡, Henrik Plate∗, Matias Martinez†, and Olivier Barais</p>
+
+              </div>
+              <div class="col col-lg-6">
+                <h4>10/23&nbsp;&nbsp;Side Channels and Information Leakage</h4>
+                <h5><a href="https://people.eecs.berkeley.edu/~daw/papers/ssh-use01.pdf">
+                        Timing Analysis of Keystrokes and Timing Attacks on SSH</a></h5>
+                <p><i>SEC '01</i>. Dawn Song, David Wagner, Xuqing Tia.</p>
+                <h5><a href="https://spectreattack.com/spectre.pdf">
+                        Spectre Attacks: Exploiting Speculative Execution</a></h5>
+                <p><i>S&P '19</i>. P. Kocher, J. Horn, A. Fogh, D. Genkin,
+                D. Gruss, W. Haas, M. Hamburg, M. Lipp, S. Mangard,
+                T. Prescher, M. Schwarz, Y. Yarom.</p>
+              </div>
+          </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>10/28&nbsp;&nbsp; Hardware</h4>
+                <h5><a href="http://sharps.org/wp-content/uploads/BECKER-CHES.pdf">Stealthy Dopant-Level Hardware Trojans</a></h5>
+                <p><i>CHES '13</i>. Georg Becker, Francesco Regazzoni, Christof Paar, Wayne Burleson.</p>
+				<h5><a href="https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf">
+						Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors</a>
+					<p><i>ISCA '14</i> Y. Kim, R. Daly, J. Kim, C. Fallin, J.H. Lee, D. Lee, C. Wilkerson, K. Lai, O. Mutlu.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>10/30&nbsp;&nbsp;Cyber Physical Systems</h4>
+                <h5><a href="http://www.autosec.org/pubs/cars-usenixsec2011.pdf">Comprehensive Experimental Analyses of Automotive Attack Surfaces</a></h5>
+                <p><i>SEC '11</i>. Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, Stefan Savage.</p>
+
+                <h5><a href="https://www.secure-medicine.org/hubfs/public/publications/icd-study.pdf">Pacemakers and Implantable Cardiac Defibrillators:
+Software Radio Attacks and Zero-Power Defenses</a></h5>
+                <p><i>S&P '08</i>. D. Halperin, T. Heydt-Benjamin, B. Ransford, S. Clark, B. Defend, W. Morgan, K. Fu, T. Kohno, W. Maisel.</p>
+              </div>
+            </div>
+           <div class="row">
+              <div class="col col-lg-6">
+                <h4>11/4&nbsp;&nbsp;Vulnerable Populations / Security For Everyone [CH, VR]</h4>
+				<h5><a href="https://dl.acm.org/doi/pdf/10.1145/3173574.3174241">
+						A Stalker’s Paradise: How Intimate Partner Abusers Exploit Technology</a></h5>
+				<p><i>CHI '18</i> Diana Freed, Jackeline Palmer, Diana Minchala, Karen Levy, Thomas Ristenpart, Nicola Dell.</p>
+				<h5><a href="https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mcgregor">When the Weakest Link is Strong: Secure Collaboration in the Case of the Panama Papers</a></h5>
+				<p><i>SEC '17</i>. S. E. McGregor, E. A. Watkins, M. N. Al-Ameen, K. Caine, F. Roesner.</p>
+              </div>
+              <div class="col col-lg-6">
+				<h4>11/6&nbsp;&nbsp;Censorship and Anonymity [RM]</h4>
+                <h5><a href="https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf">Tor: The Second-Generation Onion Router</a></h5>
+                <p><i>SEC '04</i>. Roger Dingledine, Nick Mathewson, Paul Syverson.</p>
+				<h5><a href="https://gfw.report/publications/usenixsecurity23/data/paper/paper.pdf">
+						How the Great Firewall of China Detects and Blocks Fully Encrypted Traffic</a>
+				<p><i>USENIX '23</i>. M. Wu, J. Sippe, D. Sivakumar, J. Burg, P. Anderson, X. Wang, K. Bock, A. Houmansadr, D. Levin, E. Wustrow.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>11/11&nbsp;&nbsp;Machine Learning</h4>
+                <h5><a href="https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf">
+                        Towards Evaluating the Robustness of Neural Networks</a></h5>
+                <p><i>S&P '16</i>. Nicholas Carlini and David Wagner.</p>
+                <h5><a href="https://www1.icsi.berkeley.edu/pubs/networking/outsidethe10.pdf">
+                        Outside the Closed World: On Using Machine Learning For Network Intrusion Detection</a></h5>
+                <p><i>S&P '10</i>. Robin Sommer and Vern Paxson.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>11/13&nbsp;&nbsp;Privacy and Dark Patterns</h4>
+                <h5><a href="https://ieeexplore.ieee.org/iel5/4531131/4531132/04531148.pdf">
+                        Robust De-anonymization of Large Sparse Datasets</a></h5>
+                <p><i>S&P '08</i>. Arvind Narayanan and Vitaly Shmatikov.</p>
+                <h5><a href="https://dl.acm.org/doi/pdf/10.1145/3359183">Dark patterns at scale: Findings from a crawl of 11K shopping websites</a></h5>
+                <p><i>S&P '08</i>. Arunesh Mathur, Gunes Acar, Michael Friedman,
+				Eli Lucherini, Jonathon Mayer, Marshini Chetty, Arvind Narayanan.</p>
+			  </div>
+            </div>
+            <div class="row">
+              <div class="col col-lg-6">
+                <h4>11/18&nbsp;&nbsp;Government Attacks</h4>
+                <h5><a href="https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-marczak.pdf">
+                        When Governments Hack Opponents: A Look at Actors and Technology</a></h5>
+				<p><i>SEC '14</i>. Bill Marczak, John Scott-Railton, Morgan Marquis-Boire, Vern Paxson.</p>
+                <h5><a href="https://dspace.mit.edu/bitstream/handle/1721.1/97690/MIT-CSAIL-TR-2015-026.pdf">Keys Under Doormats</a></h5>
+				<p><i>MIT Technical Report '15.</i> H. Abelson, R. Anderson, S. Bellovin, J. Benaloh, M. Blaze,
+                    W. Diffie, J. Gilmore, M. Green, S. Landau, P. Neumann,
+                    R. Rivest, J. Schiller, B. Schneier, M. Specter, D. Weitzner.</p>
+              </div>
+              <div class="col col-lg-6">
+                <h4>11/20&nbsp;&nbsp;Problem Selection</h4>
+                <h5><a href="https://web.cs.ucdavis.edu/~rogaway/papers/moral.pdf">
+                    The Moral Character of Cryptographic Work</a></h5>
+                <p>Phillip Rogaway.</p>
+                <h5><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/scienceAndSecuritySoK.pdf">
+                    Science, Security, and the Elusive Goal of Security as a Scientific Pursuit</a></h5>
+                <p><i>S&P '17</i>. Cormac Herley and P.C. van Oorschot.</p>
+              </div>
+            </div>
+			<div class="row">
+              <div class="col col-lg-6">
+                <h4>11/25&nbsp;&nbsp; Thanksgiving Break</h4>
+				<h5>No class.</h5><br/>
+              </div>
+              <div class="col col-lg-6">
+                <h4>11/27&nbsp;&nbsp; Thanksgiving Break</h4>
+				<h5>No class.</h5><br/>
+              </div>
+            </div>
+			<div class="row">
+              <div class="col col-lg-6">
+				<h4>12/2&nbsp;&nbsp; Final Presentations</h4>
+				<h5>No required reading. Attendance mandatory.</h5>
+              </div>
+              <div class="col col-lg-6">
+                <h4>12/4&nbsp;&nbsp; Final Presentations</h4>
+				<h5>No required reading. Attendance mandatory.</h5>
+              </div>
+            </div>
+          </div>
+
+          <h2>🚩 Course Structure</h2>
+
+		  <p>This course is composed of three parts: reading and discussing
+		  foundational papers in every class, reading and presenting recent
+		  work for one class, and completing a group research project. Grading
+		  will be based on:</p>
+
+          <p style="padding-top: 5px"><b>📚 Readings and Discussion (30%)</b></p>
+
+		  <p>We will read and discuss 1&ndash;2 papers for each class.
+		  Typically, these are formative works in an area of security.
+		  Students should come prepared to actively discuss assigned papers and
+		  to make substantive intellectual contributions. This means that you
+		  need to thoroughly read each paper ahead of time. Before each
+		  section, students will submit a short (400 word) summary and reaction
+		  for each each paper, as well as a proposal of one discussion question
+		  for class.</p>
+
+		  <p>📨  Students should submit the reading assignments
+		  through <a href="https://www.gradescope.com/courses/25192">Gradescope</a>
+		  by <b>3:00 pm on the day of each class</b>. Paper responses should be completed
+	  	  individually without the assistance of LLMs (e.g., ChatGPT).</p>
+
+		  <p>Grading will be based 20% on these written responses and 10% on
+		  in-class participation. We do not allow any late days for paper
+		  reactions, but students may skip two paper summaries and two lectures
+		  without penalty. We will take class attendance. However,
+		  participation grades are based on not only attendence, but active
+		  participation during class discussion.</p>
+
+		  <p>📣<i> Do not underestimate the amount of time required to properly
+			  read and process a research paper. Expect to spend several hours
+			  preparing for each section.</i></p>
+
+          <p style="padding-top: 10px"><b>🧑‍🏫 Topic Presentation (15%)</b></p>
+
+		  <p>While reading formative papers helps to demonstrate how a subfield
+		  started, it oftentimes leaves us wondering how the area has evolved.
+		  To fill this gap, each student in the class will present one recent
+		  paper during the quarter topically relevant to that day's class. At
+		  the start of the quarter, students will have the opportunity to sign
+		  up for the topic/date that they want to present their paper.</p>
+
+		  <p>Students are expected to perform a literature search and to select
+		  a paper that was published in the last three years from a top-tier
+		  venue in security (e.g., IEEE Security and Privacy, USENIX Security,
+		  ACM Computer or Communication Security) or adjacent field (e.g., CHI,
+		  NSDI, ASPLOS, PLDI, SIGCOMM, etc.). Be wary of other publications
+		  from IEEE, most are not top-tier venues and papers will not be
+		  accepted for presentation.</p>
+
+		  <p><i>⚠️  Student presentations must be 10-12 minutes and allow for
+			  2-5 minutes of questions. We will cut presentations off at 12
+			  minutes, which will impact your presentation grade. Be prepared
+		  to answer questions about the paper you present.</i></p>
+
+		  <p><i>⚠️  Students must submit their papers to
+		  approval to the teaching staff a minimum three days prior to their
+		  presentation.</i></p>
+
+          <p style="padding-top: 10px"><b>🔬 Course Project (55%)</b></p>
+
+		  <p>Students will complete a quarter-long original research project in
+		  small groups (1&ndash;3 students) on a topic of their own choosing.
+		  Groups will present their work during the last two sections as well
+		  as submit a 6&ndash;10 page report, similar to the papers we read in
+		  the course. </p>
+
+          <p>Projects have four graded components:
+          <ul>
+			  <li><b>Project Proposal (5%).</b> Project groups will meet with
+				  course staff to discuss their project during the third week
+				  of class and submit a one page project proposal. <i>Reports
+			  must include a complete Related Work section.</i> Due 10/11.</li>
+
+			  <li><b>Mid-Quarter Progress Report (5%).</b> Submit a short
+				  (1&ndash;2 pages) progress report part way through the
+				  quarter. The report should indicate what has been
+					  accomplished, what work is remaining, obstacles the team
+					  has encountered, and any preliminary data or insights.
+						  <i>Reports must include a complete Methodology
+							  section.</i> Due 11/13.</li>
+
+			  <li><b>Class Presentation (10%).</b> Each group will give a 10
+				  minute class presentation during the last week of the
+				  course.</li>
+
+			  <li><b>Final Paper (35%).</b> Groups will submit a final project
+				  report similar to the papers we read in the course. Papers
+				  should be 6&ndash;10 pages. Due 12/6.</li>
+            </ul>
+
+		  <p>All written submissions related to the course project are to
+			  be written in paragraph form, in English, using LaTeX, and
+			  submitted in PDF form, inline with the examples provided at the
+			  start of the quarter. Submissions must use the <a href="https://www.usenix.org/conferences/author-resources/paper-templates">USENIX LaTeX template</a>.
+              We strongly encourage you to read
+                  <a href="http://www.cs.columbia.edu/~hgs/etc/writing-style.html">Writing Technical Articles</a> if you haven't
+				  previously published academic research work in computer science.
+          </p>
+
+          <h2>⚙️  Administrivia</h2>
+
+          <p>Students should submit all reports through <a
+          href="https://www.gradescope.com/courses/838819">Gradescope</a> by
+          classtime at <b>3:00PM</b> on the day of each deadline. </p>
+
+		  <p>In past offerings, well-executed projects have led to publications
+		  at top-tier security conferences and workshops. The teaching team is
+		  happy to work with groups to publish their work.</p>
+
+		  <p>All submitted work for this course must by directly written by the
+		  submitting student(s). Using generative AI tools to complete
+		  assignments or projects (e.g. generating text) is prohibited.
+		  </p>
+
+		  <p>Attendance on 12/2 and 12/4 is required for all students. This
+		  class has no final exam.</p>
+
+		  <p>Stanford as an institution is committed to the highest quality
+		  education, and as your teaching team, our first priority is to uphold
+		  your educational experience. To that end we are committed to
+		  following the syllabus as written here, including through short- or
+		  long-term disruptions, such as public health emergencies, natural
+		  disasters, or protests and demonstrations. However, there may be
+		  extenuating circumstances that necessitate some changes. Should
+		  adjustments be necessary, we will communicate clearly and promptly to
+		  ensure you understand the expectations and are positioned for
+		  successful learning.</p>
+
+		  <br/><br/>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
