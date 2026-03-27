@@ -5,12 +5,16 @@ const scheduleEvents =
             start: '2026-03-30',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Introduction to Internet Security, Course Overview, Presentation Instructions, Presentation Schedule, and How to Read a Paper.',
+            description: 'Introduction to Internet Security (ZMap/LZR), Course Overview, Presentation Instructions, Presentation Schedule, and How to Give A Good Talk.',
             items: [
-              { label: 'Intro to Internet Security Lecture', url: 'lectures/L1-Intro.pdf' },
-              { label: 'Course Logistics', url: '' },
-              { label: 'Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'},
-              { label: 'Group Sign-Ups', url: '' }         
+              { label: 'Lecture: Intro to Internet Security', url: 'lectures/L1-Intro.pdf' },
+              { label: 'Lecture: How to Give a Good Talk', url: 'lectures/L4-GoodTalks.pdf' },
+              { label: 'Lecture: Course Logistics', url: '' },
+              { label: 'HW: Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'},
+              { label: 'HW: Group Sign-Ups', url: '' },    
+              { label: 'HW: How to Read a Paper', url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458' },        
+              { label: 'Paper Reference: ZMap', url: '' },
+              { label: 'Paper Reference: LZR Paper', url: '' } 
             ]
           },
           {
@@ -30,8 +34,10 @@ const scheduleEvents =
             end: '2026-04-01',
             color: '#EAAA00',
             type: 'Homework',
-            url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing',
-            description: 'Sign Up for Presentation Slot'
+            description: 'Sign Up for Presentation Slot',
+            items: [
+              { label: 'Sign-Up', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing' }
+            ]  
           },
           {
             title: 'HW: Project Sign Up',
@@ -39,8 +45,10 @@ const scheduleEvents =
             end: '2026-04-01',
             color: '#EAAA00',
             type: 'Homework',
-            url: '',
             description: 'Sign Up for Project Groups between 2--4 people.'
+            items: [
+              { label: 'Sign-Up', url: '' }
+            ]  
           },
           {
             title: 'IPv6',
@@ -49,8 +57,9 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'IPv6 Lecture', url: 'lectures/' },
-              { label: 'Project Proposal Brainstorm', url: '' }
+              { label: 'Lecture: IPv6', url: '' },
+              { label: 'HW: Project Proposal Brainstorm', url: '' },
+              { label: 'Paper Reference: 6Sense', url: 'https://www.usenix.org/system/files/usenixsecurity24-williams.pdf' }        
             ]
           },
           {
@@ -65,13 +74,13 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Routing Part 1',
+            title: 'Routing',
             start: '2026-04-06',
             color: '#2b6cb0',
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Routing Lecture', url: 'lectures/' }
+              { label: 'Lecture: Routing', url: '' }
             ]
           },
           {
@@ -84,25 +93,13 @@ const scheduleEvents =
             description: 'Routing Homework Assignment.'
           },
           {
-            title: 'Project 2 Window',
-            start: '2026-04-06',
-            end: '2026-04-10',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'Released 4/6, due 4/9.',
-            items: [
-              { label: 'Instructions', url: 'https://docs.google.com/document/d/1pWojPtE2sIrpLAk6aC0QZx-w7Keuxy5WjH0jKk-pUPE' }
-            ]
-          },
-          {
-            title: 'Routing Part 2',
+            title: 'Routing Security',
             start: '2026-04-08',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Predictive Scanning, How to Give a Good Talk, Research Group Meetings',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Predictive Scanning', url: 'lectures/L4-PredictiveScanning.pdf' },
-              { label: 'How to Give a Good Talk', url: 'lectures/L4-GoodTalks.pdf' }
+              { label: 'Lecture: Routing Security', url: '' },
             ]
           },
           {
@@ -113,35 +110,29 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Released 4/8, due 4/14.',
             items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1QNTdTcr5BHad6eSrMmL2UmXN239guG4AFGwi5amn9x8/' }
+              { label: 'Write-Up', url: '' }
             ]
           },
           {
-            title: 'Homework: Predicting IPv4 Services',
-            start: '2026-04-14',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://lizizhikevich.github.io/assets/papers/gps.pdf',
-            description: 'Predicting IPv4 Services Across All Ports'
-          },
-          {
-            title: 'Abusing Internet Scanning',
+            title: 'Cloud Compute',
             start: '2026-04-13',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Botnets, Paper Discussion, Student Presentation',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Botnets', url: 'lectures/L5-MaliciousScanning.pdf' }
+              { label: 'Lecture: Cloud Compute', url: '' },
+              { label: 'Paper Reference: Get-Off-My-Cloud ', url: 'https://rist.tech.cornell.edu/papers/cloudsec.pdf' }
             ]
           },
           {
-            title: 'IPv6 Scanning',
+            title: 'Cloud Storage',
             start: '2026-04-15',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'IPv6, Paper Discussion, Student Presentation',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'IPv6', url: 'lectures/L6-IPv6.pdf' }
+              { label: 'Lecture: Cloud Storage', url: '' }, //lectures/L7-CloudStorage.pdf
+              { label: 'Paper Reference: HoneyBuckets', url: 'https://lizizhikevich.github.io/assets/papers/honeybuckets.pdf' },        
             ]
           },
           {
@@ -156,37 +147,26 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Homework: Mirai Botnet',
-            start: '2026-04-16',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf',
-            description: 'Understanding the Mirai Botnet'
-          },
-          {
-            title: 'Cloud Storage Scanning',
+            title: 'Botnets',
             start: '2026-04-20',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Cloud Storage, Paper Discussion, Student Presentation',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Cloud Storage', url: 'lectures/L7-CloudStorage.pdf' }
+               { label: 'Paper Reference: Mirai', url: 'https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf' }, 
+               { label: 'Lecture: Botnets', url: '' },       // lectures/L11-Criminals.pdf
             ]
           },
           {
-            title: 'IPv6 Homework: 6Sense',
-            start: '2026-04-21',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://www.usenix.org/system/files/usenixsecurity24-williams.pdf',
-            description: '6Sense: Internet-Wide IPv6 Scanning and its Security Applications'
-          },
-          {
-            title: 'Cloud Compute Scanning',
+            title: 'Bullet-Proof Hosting',
             start: '2026-04-22',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Group Meetings, Paper Discussion, Student Presentation'
+            description: 'Student Presentation, Lecture',
+            items: [
+               { label: 'Paper Reference: Bullet-Proof', url: 'https://www.usenix.org/system/files/sec19-noroozian.pdf' }, 
+               { label: 'Lecture: Botnets', url: '' },       // lectures/L11-Criminals.pdf
+            ]
           },
           {
             title: 'Project 5 Window',
@@ -201,13 +181,7 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Homework: Honeybuckets',
-            start: '2026-04-23',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://lizizhikevich.github.io/assets/papers/honeybuckets.pdf',
-            description: 'Using Honeybuckets to Characterize Cloud Storage Scanning in the Wild'
-          },
+
           {
             title: 'GEO Satellites',
             start: '2026-04-27',
@@ -217,14 +191,6 @@ const scheduleEvents =
             items: [
               { label: 'GEO Satellites', url: 'lectures/L8-GEO.pdf' }
             ]
-          },
-          {
-            title: 'Homework: My Cloud',
-            start: '2026-04-28',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://rist.tech.cornell.edu/papers/cloudsec.pdf',
-            description: 'Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds'
           },
           {
             title: 'Mid-Point and GEO Satellites [Virtual]',
@@ -301,7 +267,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Internet Criminals, Paper Discussion, Student Presentation',
             items: [
-              { label: 'Internet Criminals', url: 'lectures/L11-Criminals.pdf' }
+              { label: 'Internet Criminals', url: '' }
             ]
           },
           {
@@ -319,7 +285,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Internet Criminals Part 2, Paper Discussion, Student Presentation',
             items: [
-              { label: 'Internet Criminals Part 2', url: 'lectures/L11-Criminals.pdf' }
+              { label: 'Internet Criminals Part 2', url: '' }
             ]
           },
           {
@@ -327,7 +293,7 @@ const scheduleEvents =
             start: '2026-05-14',
             color: '#EAAA00',
             type: 'Homework',
-            url: 'https://www.usenix.org/system/files/sec19-noroozian.pdf',
+            url: '',
             description: 'Platforms in Everything: Analyzing Ground-Truth Data on the Anatomy and Economics of Bullet-Proof Hosting'
           },
           {
