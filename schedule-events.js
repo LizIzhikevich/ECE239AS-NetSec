@@ -17,7 +17,7 @@ const scheduleEvents =
             title: 'Homework: Reading',
             start: '2026-03-30',
             end: '2026-04-01',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458',
             description: 'Read How to Read a Paper'
@@ -26,7 +26,7 @@ const scheduleEvents =
             title: 'Homework: Presentation Sign Up',
             start: '2026-03-30',
             end: '2026-04-01',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing',
             description: 'Sign Up for Presentation Slot'
@@ -35,7 +35,7 @@ const scheduleEvents =
             title: 'Homework: Project Sign Up',
             start: '2026-03-30',
             end: '2026-04-01',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: '',
             description: 'Sign Up for Project Groups between 2--4 people.'
@@ -76,7 +76,7 @@ const scheduleEvents =
             title: 'Homework: Routing',
             start: '2026-04-06',
             end: '2026-04-13',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: '',
             description: 'Routing Homework Assignment.'
@@ -117,7 +117,7 @@ const scheduleEvents =
           {
             title: 'Homework: Predicting IPv4 Services',
             start: '2026-04-14',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://lizizhikevich.github.io/assets/papers/gps.pdf',
             description: 'Predicting IPv4 Services Across All Ports'
@@ -156,7 +156,7 @@ const scheduleEvents =
           {
             title: 'Homework: Mirai Botnet',
             start: '2026-04-16',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf',
             description: 'Understanding the Mirai Botnet'
@@ -174,7 +174,7 @@ const scheduleEvents =
           {
             title: 'IPv6 Homework: 6Sense',
             start: '2026-04-21',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://www.usenix.org/system/files/usenixsecurity24-williams.pdf',
             description: '6Sense: Internet-Wide IPv6 Scanning and its Security Applications'
@@ -201,7 +201,7 @@ const scheduleEvents =
           {
             title: 'Homework: Honeybuckets',
             start: '2026-04-23',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://lizizhikevich.github.io/assets/papers/honeybuckets.pdf',
             description: 'Using Honeybuckets to Characterize Cloud Storage Scanning in the Wild'
@@ -219,7 +219,7 @@ const scheduleEvents =
           {
             title: 'Homework: My Cloud',
             start: '2026-04-28',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://rist.tech.cornell.edu/papers/cloudsec.pdf',
             description: 'Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds'
@@ -258,7 +258,7 @@ const scheduleEvents =
           {
             title: 'Homework: Maritime VSAT',
             start: '2026-05-05',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://ieeexplore.ieee.org/abstract/document/9152624',
             description: 'A Tale of Sea and Sky On the Security of Maritime VSAT Communications'
@@ -287,7 +287,7 @@ const scheduleEvents =
           {
             title: 'Homework: LEO Measurements',
             start: '2026-05-07',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://lizizhikevich.github.io/assets/papers/LEO-HitchHiking.pdf',
             description: 'Democratizing LEO Satellite Network Measurements'
@@ -305,7 +305,7 @@ const scheduleEvents =
           {
             title: 'Homework: IoT Devices',
             start: '2026-05-12',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://www.usenix.org/system/files/sec19-kumar-deepak_0.pdf',
             description: 'All Things Considered: An Analysis of IoT Devices on Home Networks'
@@ -323,7 +323,7 @@ const scheduleEvents =
           {
             title: 'Homework: Bullet-Proof Hosting',
             start: '2026-05-14',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://www.usenix.org/system/files/sec19-noroozian.pdf',
             description: 'Platforms in Everything: Analyzing Ground-Truth Data on the Anatomy and Economics of Bullet-Proof Hosting'
@@ -359,7 +359,7 @@ const scheduleEvents =
           {
             title: 'Homework: ML in Security',
             start: '2026-05-21',
-            color: '#dd6b20',
+            color: '#EAAA00',
             type: 'Homework',
             url: 'https://www.usenix.org/system/files/sec22summer_arp.pdf',
             description: "Dos and Don'ts of Machine Learning in Computer Security"
