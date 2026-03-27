@@ -1,25 +1,27 @@
 const scheduleEvents = 
 [
           {
-            title: 'Introduction to Internet Scanning',
+            title: 'Introduction',
             start: '2026-03-30',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Intro to Internet Security, Course Overview, Presentation Instructions, Presentation Schedule, and How to Read a Paper.',
+            description: 'Introduction to Internet Security, Course Overview, Presentation Instructions, Presentation Schedule, and How to Read a Paper.',
             items: [
               { label: 'Intro to Internet Security', url: 'lectures/L1-Intro.pdf' },
-              { label: 'Presentation Instructions', url: 'https://docs.google.com/document/d/1qYgbsvrDPedcM9_bq9hP4rQu6RvsNGoCjv-1ignCX8g/' },
-              { label: 'Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing' }
+              { label: 'Course Overview', url: '' },
+              { label: 'Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'}
             ]
           },
           {
-            title: 'Reading Due: LZR',
+            title: 'Homework: Reading',
             start: '2026-04-02',
             color: '#dd6b20',
-            type: 'Reading Due',
-            url: 'https://www.usenix.org/system/files/sec21-izhikevich.pdf',
-            description: 'LZR: Identifying Unexpected Internet Services'
+            type: 'Homework',
+            url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458',
+            description: 'Read How to Read a Paper'
           },
+
+          
           {
             title: 'Internet Scanning Research',
             start: '2026-04-01',
@@ -87,10 +89,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: Predicting IPv4 Services',
+            title: 'Homework: Predicting IPv4 Services',
             start: '2026-04-14',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://lizizhikevich.github.io/assets/papers/gps.pdf',
             description: 'Predicting IPv4 Services Across All Ports'
           },
@@ -126,10 +128,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: Mirai Botnet',
+            title: 'Homework: Mirai Botnet',
             start: '2026-04-16',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf',
             description: 'Understanding the Mirai Botnet'
           },
@@ -144,10 +146,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'IPv6 Reading Due: 6Sense',
+            title: 'IPv6 Homework: 6Sense',
             start: '2026-04-21',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://www.usenix.org/system/files/usenixsecurity24-williams.pdf',
             description: '6Sense: Internet-Wide IPv6 Scanning and its Security Applications'
           },
@@ -171,10 +173,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: Honeybuckets',
+            title: 'Homework: Honeybuckets',
             start: '2026-04-23',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://lizizhikevich.github.io/assets/papers/honeybuckets.pdf',
             description: 'Using Honeybuckets to Characterize Cloud Storage Scanning in the Wild'
           },
@@ -189,10 +191,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: My Cloud',
+            title: 'Homework: My Cloud',
             start: '2026-04-28',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://rist.tech.cornell.edu/papers/cloudsec.pdf',
             description: 'Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds'
           },
@@ -228,10 +230,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: Maritime VSAT',
+            title: 'Homework: Maritime VSAT',
             start: '2026-05-05',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://ieeexplore.ieee.org/abstract/document/9152624',
             description: 'A Tale of Sea and Sky On the Security of Maritime VSAT Communications'
           },
@@ -257,10 +259,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: LEO Measurements',
+            title: 'Homework: LEO Measurements',
             start: '2026-05-07',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://lizizhikevich.github.io/assets/papers/LEO-HitchHiking.pdf',
             description: 'Democratizing LEO Satellite Network Measurements'
           },
@@ -275,10 +277,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: IoT Devices',
+            title: 'Homework: IoT Devices',
             start: '2026-05-12',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://www.usenix.org/system/files/sec19-kumar-deepak_0.pdf',
             description: 'All Things Considered: An Analysis of IoT Devices on Home Networks'
           },
@@ -293,10 +295,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: Bullet-Proof Hosting',
+            title: 'Homework: Bullet-Proof Hosting',
             start: '2026-05-14',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://www.usenix.org/system/files/sec19-noroozian.pdf',
             description: 'Platforms in Everything: Analyzing Ground-Truth Data on the Anatomy and Economics of Bullet-Proof Hosting'
           },
@@ -329,10 +331,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Reading Due: ML in Security',
+            title: 'Homework: ML in Security',
             start: '2026-05-21',
             color: '#dd6b20',
-            type: 'Reading Due',
+            type: 'Homework',
             url: 'https://www.usenix.org/system/files/sec22summer_arp.pdf',
             description: "Dos and Don'ts of Machine Learning in Computer Security"
           },
