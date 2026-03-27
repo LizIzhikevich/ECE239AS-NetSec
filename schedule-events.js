@@ -56,7 +56,7 @@ const scheduleEvents =
             start: '2026-04-01',
             end: '2026-04-06',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 4/1, due 4/6.',
             items: [
               { label: 'Instructions', url: '' },
@@ -86,7 +86,7 @@ const scheduleEvents =
             start: '2026-04-06',
             end: '2026-04-10',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 4/6, due 4/9.',
             items: [
               { label: 'Instructions', url: 'https://docs.google.com/document/d/1pWojPtE2sIrpLAk6aC0QZx-w7Keuxy5WjH0jKk-pUPE' }
@@ -108,7 +108,7 @@ const scheduleEvents =
             start: '2026-04-08',
             end: '2026-04-15',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 4/8, due 4/14.',
             items: [
               { label: 'Write-Up', url: 'https://docs.google.com/document/d/1QNTdTcr5BHad6eSrMmL2UmXN239guG4AFGwi5amn9x8/' }
@@ -147,7 +147,7 @@ const scheduleEvents =
             start: '2026-04-15',
             end: '2026-04-22',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 4/15, due 4/21.',
             items: [
               { label: 'Write-Up', url: 'https://docs.google.com/document/d/1mpzAjYUeVrY_v-LM6d795cIPLUbuOYZ_mMtuem3dSKs' }
@@ -191,7 +191,7 @@ const scheduleEvents =
             start: '2026-04-22',
             end: '2026-04-29',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 4/22, due 4/28.',
             items: [
               { label: 'Instructions', url: 'https://docs.google.com/document/d/1o-6mnOFx_uMRPRcyNtQ17FXGxmo0lZ4_3AR-lLWUR-E/' },
@@ -239,7 +239,7 @@ const scheduleEvents =
             start: '2026-04-29',
             end: '2026-05-06',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 4/29, due 5/5.',
             items: [
               { label: 'Write-Up', url: 'https://docs.google.com/document/d/1CxuELae5vj1fZIwIZFMIOz1V7Z9-rqYxv_nXNFhCQzc' }
@@ -278,7 +278,7 @@ const scheduleEvents =
             start: '2026-05-06',
             end: '2026-05-15',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 5/6, due 5/14.',
             items: [
               { label: 'Write-Up', url: 'https://docs.google.com/document/d/1CpzaoH3Seayix95bh6aWpYCmAzc7W2MC1ciTlkZm_kU' }
@@ -350,7 +350,7 @@ const scheduleEvents =
             start: '2026-05-20',
             end: '2026-05-31',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 5/20, due 5/30 at 5:00 PM.',
             items: [
               { label: 'Final Write-Up', url: 'https://docs.google.com/document/d/1gc6_w3CW2FM9gI5xktHADuMHtXmvbGZD7RME6_B7M0E' }
@@ -383,7 +383,7 @@ const scheduleEvents =
             start: '2026-05-27',
             end: '2026-06-03',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 5/27, due 6/2 at 1:30 PM.',
             items: [
               { label: 'Upload Final Presentation to Gradescope' }
@@ -401,7 +401,7 @@ const scheduleEvents =
             start: '2026-06-01',
             end: '2026-06-07',
             color: '#EAAA00',
-            type: 'Project Window',
+            type: 'Homework',
             description: 'Released 6/1, due 6/6 at 5:00 PM.',
             items: [
               { label: 'Reproducibility Report', url: 'https://docs.google.com/document/d/1HPK7ZLOh80HR8d0MjcAZ1jmgFhC-dJ2HDKhRvbBz0ls/' }
