@@ -15,7 +15,8 @@ const scheduleEvents =
           },
           {
             title: 'Homework: Reading',
-            start: '2026-04-01',
+            start: '2026-03-30',
+            end: '2026-04-01',
             color: '#dd6b20',
             type: 'Homework',
             url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458',
@@ -23,7 +24,8 @@ const scheduleEvents =
           },
           {
             title: 'Homework: Presentation Sign Up',
-            start: '2026-04-01',
+            start: '2026-03-30',
+            end: '2026-04-01',
             color: '#dd6b20',
             type: 'Homework',
             url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing',
@@ -31,7 +33,8 @@ const scheduleEvents =
           },
           {
             title: 'Homework: Project Sign Up',
-            start: '2026-04-01',
+            start: '2026-03-30',
+            end: '2026-04-01',
             color: '#dd6b20',
             type: 'Homework',
             url: '',
@@ -44,7 +47,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'IPv6 Lecture', url: 'https://docs.google.com/document/d/1-Dx_9vnk1R1PAPuH3A-5T6y65lXlsV46fGUHzFdcdC0' },
+              { label: 'IPv6 Lecture', url: 'lectures/' },
               { label: 'Project Proposal Brainstorm', url: '' }
             ]
           },
@@ -60,14 +63,23 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Internet Data Analysis',
+            title: 'Routing Part 1',
             start: '2026-04-06',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'SQL (BigQuery) For Analysis, Research Group Meetings',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'SQL (BigQuery) For Analysis', url: 'lectures/L3-Big Query for Internet Data Analysis.pdf' }
+              { label: 'Routing Lecture', url: 'lectures/' }
             ]
+          },
+          {
+            title: 'Homework: Routing',
+            start: '2026-04-06',
+            end: '2026-04-13',
+            color: '#dd6b20',
+            type: 'Homework',
+            url: '',
+            description: 'Routing Homework Assignment.'
           },
           {
             title: 'Project 2 Window',
@@ -81,7 +93,7 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Predictive Internet Scanning',
+            title: 'Routing Part 2',
             start: '2026-04-08',
             color: '#2b6cb0',
             type: 'Lecture',
