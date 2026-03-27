@@ -180,26 +180,50 @@ const scheduleEvents =
               { label: 'Presentation Sign-Ups', url: 'https://docs.google.com/spreadsheets/d/1R4u7pyjVR3o-FWXh_tSmwnXDwl1ZSyCEUMmkXwqGEcg' }
             ]
           },
+
           {
-            title: 'GEO Satellites',
-            start: '2026-05-11',
+            title: 'HoneyPots/Telescopes',
+            start: '2026-04-27',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'GEO Satellites, Paper Discussion, Student Presentation',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: GEO Satellites', url: '' },//lectures/L8-GEO.pdf
-              { label: 'Paper Reference: A Tale of Sea and Sky', url: 'https://ieeexplore.ieee.org/abstract/document/9152624' }
-                      
+              { label: 'Lecture', url: '' },
+              { label: 'Paper Reference: Cloud Watching', url: 'https://lizizhikevich.github.io/assets/papers/Cloud_Watching.pdf' }, 
+              { label: 'Project Feedback Sign-Up', url: '' },
             ]
           },
           {
-            title: 'Mid-Point and GEO Satellites [Virtual]',
+            title: 'HW: Honeypots',
+            start: '2026-04-27',
+            end: '2026-05-11',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'HoneyPot Hw Assignment',
+            items: [
+              { label: 'Instructions:', url: '' }
+            ]  
+          },
+          {
+            title: 'HW: Presentation Sign Up',
+            start: '2026-04-27',
+            end: '2026-04-29',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'Sign Up for Project Feedback Slot',
+            items: [
+              { label: 'Sign-Up', url: '' }
+            ]  
+          },
+          {
+            title: 'Group Presentation Feedback',
             start: '2026-04-29',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'GEO Satellites, Mid-Point Presentations',
+            description: 'Individual Group Meetings, 1-on-1 Practice Talks',
             items: [
-              { label: 'GEO Satellites', url: 'lectures/L8-GEO.pdf' }
+              { label: 'HW: ', url: '' },
+              { label: 'Write-Up: ', url: '' },       
             ]
           },
           {
@@ -214,97 +238,100 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'LEO Satellites',
+            title: 'Mid-Point Project Presentations',
             start: '2026-05-04',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'LEO Satellites, Paper Discussion, Student Presentation',
+            description: 'Student Project Presentation',
             items: [
-              { label: 'LEO Satellites', url: 'lectures/L10-LEO.pdf' }
+              { label: 'Presentation Rubric: ', url: '' },
+                      
             ]
-          },
-
+          },  
           {
-            title: 'Internet of Things',
+            title: 'Content Delivery Networks',
             start: '2026-05-06',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Tips for Empirical Writing, Paper Discussion, Student Presentation',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Tips for Empirical Writing', url: 'https://docs.google.com/document/d/1JDognR_cGMzKXYJN2GZQ1QBnwNwDmhQvXNsDGGvM1EQ' }
+              { label: 'Lecture: ', url: '' }, 
+              { label: 'Paper Reference: ', url: '' },        
             ]
-          },
+          }, 
           {
-            title: 'Project 6 Window',
-            start: '2026-05-06',
-            end: '2026-05-15',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'Released 5/6, due 5/14.',
-            items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1CpzaoH3Seayix95bh6aWpYCmAzc7W2MC1ciTlkZm_kU' }
-            ]
-          },
-          {
-            title: 'Homework: LEO Measurements',
-            start: '2026-05-07',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://lizizhikevich.github.io/assets/papers/LEO-HitchHiking.pdf',
-            description: 'Democratizing LEO Satellite Network Measurements'
-          },
-          {
-            title: 'Understanding Criminals',
+            title: 'GEO Satellites Part 1',
             start: '2026-05-11',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Internet Criminals, Paper Discussion, Student Presentation',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Internet Criminals', url: '' }
+              { label: 'Lecture: GEO Satellites', url: '' },//lectures/L8-GEO.pdf
+              { label: 'Paper Reference: A Tale of Sea and Sky', url: 'https://ieeexplore.ieee.org/abstract/document/9152624' }
+                      
             ]
           },
           {
-            title: 'Homework: IoT Devices',
-            start: '2026-05-12',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://www.usenix.org/system/files/sec19-kumar-deepak_0.pdf',
-            description: 'All Things Considered: An Analysis of IoT Devices on Home Networks'
-          },
-          {
-            title: 'Understanding Criminals Part 2',
+            title: 'GEO Satellites Part 2',
             start: '2026-05-13',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Internet Criminals Part 2, Paper Discussion, Student Presentation',
+            description: 'GEO Satellites, Mid-Point Presentations',
             items: [
-              { label: 'Internet Criminals Part 2', url: '' }
+              { label: 'Lecture: ', url: '' },
+              { label: 'Paper Reference: ', url: '' },
             ]
           },
           {
-            title: 'Homework: Bullet-Proof Hosting',
-            start: '2026-05-14',
+            title: 'HW: GEO Satellites',
+            start: '2026-05-11',
+            end: '2026-05-18',
             color: '#EAAA00',
             type: 'Homework',
-            url: '',
-            description: 'Platforms in Everything: Analyzing Ground-Truth Data on the Anatomy and Economics of Bullet-Proof Hosting'
+            description: 'Satellite Hw Assignment',
+            items: [
+              { label: 'Instructions:', url: '' }
+            ]  
           },
+
           {
-            title: 'Guest Lecture',
+            title: 'LEO Satellites Networking',
             start: '2026-05-18',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Internet Scanning for Research and Profit; David Adrian',
+            description: 'Student Presentation,Lecture',
             items: [
-              { label: 'David Adrian', url: 'https://dadrian.io' }
+              { label: 'Lecture: LEO Satellites', url: '' }, //lectures/L10-LEO.pdf
+              { label: 'Paper Reference: LEO HitchHiking', url: 'https://lizizhikevich.github.io/assets/papers/LEO-HitchHiking.pdf' }
             ]
           },
           {
-            title: 'Machine Learning',
+            title: 'LEO Satellites Security',
             start: '2026-05-20',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Research Group Meetings, Paper Discussion, Student Presentation'
+            description: 'Student Presentation,Lecture',
+            items: [
+              { label: 'Lecture: LEO Satellites', url: '' } //lectures/L10-LEO.pdf
+            ]
+          },
+          {
+            title: 'Holiday',
+            start: '2026-05-25',
+            color: '#718096',
+            type: 'No Class',
+            description: 'No class.'
+          },
+
+          {
+            title: 'TBD: IoT? ML? Scada? ',
+            start: '2026-05-27',
+            color: '#2b6cb0',
+            type: 'Lecture',
+            description: 'Student Presentation, Lecture,Tips for Empirical Writing',
+            items: [
+              { label: 'Tips for Empirical Writing', url: 'https://docs.google.com/document/d/1JDognR_cGMzKXYJN2GZQ1QBnwNwDmhQvXNsDGGvM1EQ' }
+            ]
           },
           {
             title: 'Final Write-Up Window',
@@ -316,21 +343,6 @@ const scheduleEvents =
             items: [
               { label: 'Final Write-Up', url: 'https://docs.google.com/document/d/1gc6_w3CW2FM9gI5xktHADuMHtXmvbGZD7RME6_B7M0E' }
             ]
-          },
-          {
-            title: 'Homework: ML in Security',
-            start: '2026-05-21',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://www.usenix.org/system/files/sec22summer_arp.pdf',
-            description: "Dos and Don'ts of Machine Learning in Computer Security"
-          },
-          {
-            title: 'Holiday',
-            start: '2026-05-25',
-            color: '#718096',
-            type: 'No Class',
-            description: 'No class.'
           },
           {
             title: 'Project Wrap-Up',
