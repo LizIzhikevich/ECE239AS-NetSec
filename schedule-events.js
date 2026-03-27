@@ -19,9 +19,9 @@ const scheduleEvents =
             end: '2026-04-01',
             color: '#EAAA00',
             type: 'Homework',      
-            description: 'Read How to Read a Paper',
+            description: 'Read "How to Read a Paper"',
             items: [
-              { label: 'Paper', url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458' }
+              { label: 'Paper:How to Read a Paper', url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458' }
             ]             
           },
           {
