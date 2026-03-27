@@ -5,7 +5,7 @@ const scheduleEvents =
             start: '2026-03-30',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Introduction to Internet Security (ZMap/LZR), Course Overview, Presentation Instructions, Presentation Schedule, and How to Give A Good Talk.',
+            description: 'Introduction to Internet Security, Course Overview, Presentation Instructions, Presentation Schedule, and How to Give A Good Talk.',
             items: [
               { label: 'Lecture: Intro to Internet Security', url: 'lectures/L1-Intro.pdf' },
               { label: 'Lecture: How to Give a Good Talk', url: 'lectures/L4-GoodTalks.pdf' },
@@ -13,8 +13,7 @@ const scheduleEvents =
               { label: 'HW: Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'},
               { label: 'HW: Group Sign-Ups', url: '' },    
               { label: 'HW: How to Read a Paper', url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458' },        
-              { label: 'Paper Reference: ZMap', url: '' },
-              { label: 'Paper Reference: LZR Paper', url: '' } 
+              { label: 'Paper Reference: ZMap', url: 'https://zmap.io/paper.pdf' },
             ]
           },
           {
@@ -47,7 +46,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Sign Up for Project Groups between 2--4 people.',
             items: [
-              { label: 'Sign-Up', url: '' }
+              { label: 'Sign-Up', url: 'https://docs.google.com/spreadsheets/d/17XejSyn26zxtgBq_Qk8R8DEyHFD-tudbxhRPfM8cK7Q/edit?gid=0#gid=0' }
             ]  
           },
           {
