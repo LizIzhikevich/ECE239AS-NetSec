@@ -45,7 +45,7 @@ const scheduleEvents =
             end: '2026-04-01',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Sign Up for Project Groups between 2--4 people.'
+            description: 'Sign Up for Project Groups between 2--4 people.',
             items: [
               { label: 'Sign-Up', url: '' }
             ]  
@@ -181,15 +181,15 @@ const scheduleEvents =
             ]
           },
           {
-
-          {
             title: 'GEO Satellites',
-            start: '2026-04-27',
+            start: '2026-05-11',
             color: '#2b6cb0',
             type: 'Lecture',
             description: 'GEO Satellites, Paper Discussion, Student Presentation',
             items: [
-              { label: 'GEO Satellites', url: 'lectures/L8-GEO.pdf' }
+              { label: 'Lecture: GEO Satellites', url: '' },//lectures/L8-GEO.pdf
+              { label: 'Paper Reference: A Tale of Sea and Sky', url: 'https://ieeexplore.ieee.org/abstract/document/9152624' }
+                      
             ]
           },
           {
@@ -223,14 +223,7 @@ const scheduleEvents =
               { label: 'LEO Satellites', url: 'lectures/L10-LEO.pdf' }
             ]
           },
-          {
-            title: 'Homework: Maritime VSAT',
-            start: '2026-05-05',
-            color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://ieeexplore.ieee.org/abstract/document/9152624',
-            description: 'A Tale of Sea and Sky On the Security of Maritime VSAT Communications'
-          },
+
           {
             title: 'Internet of Things',
             start: '2026-05-06',
