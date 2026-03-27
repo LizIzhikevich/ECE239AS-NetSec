@@ -128,6 +128,15 @@
         fixedWeekCount: false,
         navLinks: true,
         displayEventTime: false,
+        eventOrder: function(a, b) {
+        const order = {
+            'No Class': 1,
+            'Lecture': 2,
+            'Homework': 3,
+            'Project Window': 4,
+          };
+          return (order[a.extendedProps.type] || 99) - (order[b.extendedProps.type] || 99);
+        },
         headerToolbar: {
           left: 'prev,next today',
           center: 'title',
