@@ -7,42 +7,56 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Introduction to Internet Security, Course Overview, Presentation Instructions, Presentation Schedule, and How to Read a Paper.',
             items: [
-              { label: 'Intro to Internet Security', url: 'lectures/L1-Intro.pdf' },
-              { label: 'Course Overview', url: '' },
+              { label: 'Intro to Internet Security Lecture', url: 'lectures/L1-Intro.pdf' },
+              { label: 'Course Logistics', url: '' },
               { label: 'Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'}
+              { label: 'Group Sign-Ups', url: '' }         
             ]
           },
           {
             title: 'Homework: Reading',
-            start: '2026-04-02',
+            start: '2026-04-01',
             color: '#dd6b20',
             type: 'Homework',
             url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458',
             description: 'Read How to Read a Paper'
           },
-
-          
           {
-            title: 'Internet Scanning Research',
+            title: 'Homework: Presentation Sign Up',
+            start: '2026-04-01',
+            color: '#dd6b20',
+            type: 'Homework',
+            url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing',
+            description: 'Sign Up for Presentation Slot'
+          },
+          {
+            title: 'Homework: Project Sign Up',
+            start: '2026-04-01',
+            color: '#dd6b20',
+            type: 'Homework',
+            url: '',
+            description: 'Sign Up for Project Groups between 2--4 people.'
+          },
+          {
+            title: 'IPv6',
             start: '2026-04-01',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Research Topics, Censys, Paper Discussion',
+            description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Research Topics', url: 'https://docs.google.com/document/d/1-Dx_9vnk1R1PAPuH3A-5T6y65lXlsV46fGUHzFdcdC0' },
-              { label: 'Censys', url: 'https://platform.censys.io' }
+              { label: 'IPv6 Lecture', url: 'https://docs.google.com/document/d/1-Dx_9vnk1R1PAPuH3A-5T6y65lXlsV46fGUHzFdcdC0' },
+              { label: 'Project Proposal Brainstorm', url: '' }
             ]
           },
           {
-            title: 'Project 1 Window',
+            title: 'Project Proposals',
             start: '2026-04-01',
-            end: '2026-04-08',
+            end: '2026-04-06',
             color: '#EAAA00',
             type: 'Project Window',
-            description: 'Released 4/1, due 4/7.',
+            description: 'Released 4/1, due 4/6.',
             items: [
-              { label: 'Instructions', url: 'https://docs.google.com/document/d/1BtAJyScvYrxwoXOtsYWoJOvCeV3dVBQCxyhrcQM6Ivs' },
-              { label: 'Group Sign-Ups', url: 'https://docs.google.com/spreadsheets/d/1n_Q2POeLowH4tUXlPOwLFx87T5mOxdKTJTL_ySgFZ2g' }
+              { label: 'Instructions', url: '' },
             ]
           },
           {
