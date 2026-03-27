@@ -14,16 +14,18 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Homework: Reading',
+            title: 'HW: Reading',
             start: '2026-03-30',
             end: '2026-04-01',
             color: '#EAAA00',
-            type: 'Homework',
-            url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458',
+            type: 'Homework',      
             description: 'Read How to Read a Paper'
+            items: [
+              { label: 'Paper', url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458' }
+            ]             
           },
           {
-            title: 'Homework: Presentation Sign Up',
+            title: 'HW: Presentation Sign Up',
             start: '2026-03-30',
             end: '2026-04-01',
             color: '#EAAA00',
@@ -32,7 +34,7 @@ const scheduleEvents =
             description: 'Sign Up for Presentation Slot'
           },
           {
-            title: 'Homework: Project Sign Up',
+            title: 'HW: Project Sign Up',
             start: '2026-03-30',
             end: '2026-04-01',
             color: '#EAAA00',
@@ -52,7 +54,7 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Project Proposals',
+            title: 'HW: Project Proposals',
             start: '2026-04-01',
             end: '2026-04-06',
             color: '#EAAA00',
@@ -73,7 +75,7 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Homework: Routing',
+            title: 'HW: Routing',
             start: '2026-04-06',
             end: '2026-04-13',
             color: '#EAAA00',
