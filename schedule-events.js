@@ -9,7 +9,7 @@ const scheduleEvents =
             items: [
               { label: 'Intro to Internet Security Lecture', url: 'lectures/L1-Intro.pdf' },
               { label: 'Course Logistics', url: '' },
-              { label: 'Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'}
+              { label: 'Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'},
               { label: 'Group Sign-Ups', url: '' }         
             ]
           },
