@@ -1,1 +1,1 @@
-# Website for UCLA ECE239AS: Topics in  Computer Network Measurement and Security
+# Website for UCLA ECE239AS: Networking and Security
