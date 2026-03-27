@@ -1,1 +1,1 @@
-# Website for UCLA ECE239AS: Networking and Security
+# Website for UCLA ECE239AS: Advanced Networking and Security
