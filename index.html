@@ -44,17 +44,25 @@
 
 <h2>🗓️ Tentative Topics and Schedule</h2>
 <p>The tentative schedule and required readings for the class are below:</p>
+			
 <iframe
+   title="Course schedule"
+  id="schedule-frame"
   src="schedule.html"
-  title="Course schedule"
-  style="width: 100%; min-height: 1200px; border: 0;"
-  loading="lazy">
+  style="width: 100%; border: 0;">
 </iframe>
+<script>
+  const iframe = document.getElementById('schedule-frame');
+  iframe.onload = function () {
+    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+  };
+</script>	
+			
  <h2>🚩 <span style="color: #FFB300;">Course Structure</span></h2>
 
-  <p>This course is composed of three parts: reading and discussing foundational papers in every class, reading and presenting recent work for one class, and completing a group research project. Grading will be based on:</p>
+  <p>This course is composed of four parts: in-class particpation, a few programming-based assignemnts, reading and presenting recent work for one class, and completing a group research project. Grading will be based on:</p>
 
-  <p style="padding-top: 5px"><b>📚 Readings and Discussion (20%)</b></p>
+  <p style="padding-top: 5px"><b>📚 Participation (20%)</b></p>
 
   <p>We will read and discuss 1 paper for each class, typically formative works in an area of networking and security. Students must come prepared to actively discuss assigned papers and make substantive intellectual contributions. This means thoroughly reading each paper ahead of time. Students must annotate the paper with margin notes—these can include questions, observations, or points needing clarification. There should be at least one margin note per paper section. At least one margin note should include a proposed discussion question. Before class, students will upload their annotated paper to Gradescope. </p>
 
