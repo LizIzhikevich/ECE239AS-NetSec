@@ -9,7 +9,7 @@ const scheduleEvents =
             items: [
               { label: 'Lecture: Intro to Internet Security', url: 'lectures/L1-Intro.pdf' },
               { label: 'Lecture: How to Give a Good Talk', url: 'lectures/L1-GoodTalks.pdf' },
-              { label: 'Lecture: Course Logistics', url: '' },
+              { label: 'Lecture: Course Logistics Overview', url: '' },
               { label: 'HW: Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'},
               { label: 'HW: Project Group Sign-Ups', url: 'https://docs.google.com/spreadsheets/d/17XejSyn26zxtgBq_Qk8R8DEyHFD-tudbxhRPfM8cK7Q' },    
               { label: 'HW: How to Read a Paper', url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458' },        
