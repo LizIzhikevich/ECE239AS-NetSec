@@ -11,9 +11,10 @@ const scheduleEvents =
               { label: 'Lecture: How to Give a Good Talk', url: 'lectures/L1-GoodTalks.pdf' },
               { label: 'Lecture: Course Logistics Overview', url: '' },
               { label: 'HW: Presentation Schedule', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing'},
+              { label: 'Presentation Instructions', url: 'https://docs.google.com/document/d/1qYgbsvrDPedcM9_bq9hP4rQu6RvsNGoCjv-1ignCX8g/'},
               { label: 'HW: Project Group Sign-Ups', url: 'https://docs.google.com/spreadsheets/d/17XejSyn26zxtgBq_Qk8R8DEyHFD-tudbxhRPfM8cK7Q' },    
               { label: 'HW: How to Read a Paper', url: 'https://dl.acm.org/doi/pdf/10.1145/1273445.1273458' },        
-              { label: 'Paper Reference: ZMap', url: 'https://zmap.io/paper.pdf' },
+              { label: 'Paper Reference: LZR', url: 'https://lizizhikevich.github.io/assets/papers/lzr.pdf' },
             ]
           },
           {
@@ -35,7 +36,8 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Sign Up for Presentation Slot',
             items: [
-              { label: 'Sign-Up', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing' }
+              { label: 'Sign-Up', url: 'https://docs.google.com/spreadsheets/d/1cBANaylcDcTz5xj28ke2N1HjKetTo_uuBPmty4jIiEs/edit?usp=sharing' },
+              { label: 'Presentation Instructions', url: 'https://docs.google.com/document/d/1qYgbsvrDPedcM9_bq9hP4rQu6RvsNGoCjv-1ignCX8g/'},
             ]  
           },
           {
