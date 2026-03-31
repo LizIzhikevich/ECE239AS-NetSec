@@ -71,7 +71,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Released 4/1, due 4/6.',
             items: [
-              { label: 'Instructions', url: '' },
+              { label: 'Instructions', url: 'https://docs.google.com/document/d/1PihzGJ-wk4zOFoY5GXMX3klTYRwVvTMG8M1F40qPAbw' },
             ]
           },
           {
