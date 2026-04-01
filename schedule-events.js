@@ -58,7 +58,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: IPv6 Intro', url: 'lectures/L2-IPv6-Intro' },
+              { label: 'Lecture: IPv6 Intro', url: 'lectures/L2-IPv6-Intro.pdf' },
               { label: 'Lecture: IPv6 Scanning (6Sense)', url: 'https://www.usenix.org/system/files/usenixsecurity24_slides-williams.pdf' },
               { label: 'HW: Project Proposal', url: 'https://docs.google.com/document/d/1PihzGJ-wk4zOFoY5GXMX3klTYRwVvTMG8M1F40qPAbw' },
               { label: 'Paper Reference: 6Sense', url: 'https://www.usenix.org/system/files/usenixsecurity24-williams.pdf' }        
