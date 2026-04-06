@@ -95,7 +95,8 @@ const scheduleEvents =
             url: '',
             description: 'Routing Homework Assignment.',
             items: [
-              { label: 'HW: Routing', url: 'HWs/ECE239_routing.pdf' }
+              { label: 'HW: Routing', url: 'HWs/ECE239_routing.pdf' },
+              { label: 'HW: AI-Assist Report', url: 'https://docs.google.com/document/d/1NbkWGtgttUZTVMKl-68MBHyLQ-gPAScSuFN8pgOm-3Y' },
             ]
           },
           {
