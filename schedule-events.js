@@ -92,7 +92,10 @@ const scheduleEvents =
             color: '#EAAA00',
             type: 'Homework',
             url: '',
-            description: 'Routing Homework Assignment.'
+            description: 'Routing Homework Assignment.',
+            items: [
+              { label: 'HW: Routing', url: 'HWs/ECE239_routing.pdf' }
+            ]
           },
           {
             title: 'Routing Security',
