@@ -108,17 +108,6 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Project 3 Window',
-            start: '2026-04-08',
-            end: '2026-04-15',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'Released 4/8, due 4/14.',
-            items: [
-              { label: 'Write-Up', url: '' }
-            ]
-          },
-          {
             title: 'Cloud Compute',
             start: '2026-04-13',
             color: '#2b6cb0',
@@ -141,14 +130,14 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Project 4 Window',
-            start: '2026-04-15',
-            end: '2026-04-22',
+            title: 'HW: Project Check-In',
+            start: '2026-04-13',
+            end: '2026-04-20',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Released 4/15, due 4/21.',
+            description: 'Released 4/13, due 4/20.',
             items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1mpzAjYUeVrY_v-LM6d795cIPLUbuOYZ_mMtuem3dSKs' }
+              { label: 'Write-Up', url: '' }
             ]
           },
           {
@@ -173,19 +162,6 @@ const scheduleEvents =
                { label: 'Lecture: Botnets', url: '' },       // lectures/L11-Criminals.pdf
             ]
           },
-          {
-            title: 'Project 5 Window',
-            start: '2026-04-22',
-            end: '2026-04-29',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'Released 4/22, due 4/28.',
-            items: [
-              { label: 'Instructions', url: 'https://docs.google.com/document/d/1o-6mnOFx_uMRPRcyNtQ17FXGxmo0lZ4_3AR-lLWUR-E/' },
-              { label: 'Presentation Sign-Ups', url: 'https://docs.google.com/spreadsheets/d/1R4u7pyjVR3o-FWXh_tSmwnXDwl1ZSyCEUMmkXwqGEcg' }
-            ]
-          },
-
           {
             title: 'HoneyPots/Telescopes',
             start: '2026-04-27',
