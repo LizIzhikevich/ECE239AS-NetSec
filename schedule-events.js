@@ -133,11 +133,11 @@ const scheduleEvents =
           },
           {
             title: 'HW: Project Check-In',
-            start: '2026-04-13',
+            start: '2026-04-15',
             end: '2026-04-20',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Released 4/13, due 4/20.',
+            description: 'Released 4/15, due 4/20.',
             items: [
               { label: 'Write-Up', url: '' }
             ]
