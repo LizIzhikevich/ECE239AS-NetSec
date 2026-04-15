@@ -137,9 +137,9 @@ const scheduleEvents =
             end: '2026-04-20',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Released 4/15, due 4/20.',
+            description: 'Released 4/15, due 4/19.',
             items: [
-              { label: 'Write-Up', url: '' }
+              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1FD-LAijSEtChkHpbSfE2p8NLKdKvwEYJjBhJc64tEOo/' }
             ]
           },
           {
