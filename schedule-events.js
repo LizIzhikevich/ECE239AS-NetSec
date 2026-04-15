@@ -83,7 +83,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: Routing', url: '' }
+              { label: 'Lecture: Routing', url: 'lectures/L3-Routing.pdf' }
             ]
           },
           {
@@ -106,7 +106,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: Routing Security', url: '' },
+              { label: 'Lecture: Routing Security', url: 'lectures/L4-RoutingSecurity' },
             ]
           },
           {
@@ -116,7 +116,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: Cloud Compute', url: '' },
+              { label: 'Lecture: Cloud Compute', url: 'lectures/L5-CloudCompute-Security.pdf' },
               { label: 'Paper Reference: Get-Off-My-Cloud ', url: 'https://rist.tech.cornell.edu/papers/cloudsec.pdf' }
             ]
           },
@@ -127,7 +127,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: Cloud Storage', url: '' }, //lectures/L7-CloudStorage.pdf
+              { label: 'Lecture: Cloud Storage', url: 'lectures/L6-CloudStorage.pdf' }, //lectures/L7-CloudStorage.pdf
               { label: 'Paper Reference: HoneyBuckets', url: 'https://lizizhikevich.github.io/assets/papers/honeybuckets.pdf' },        
             ]
           },
