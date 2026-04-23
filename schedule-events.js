@@ -167,7 +167,7 @@ const scheduleEvents =
           {
             title: 'HW: Project Milestone',
             start: '2026-04-23',
-            end: '2026-04-26',
+            end: '2026-04-27',
             color: '#EAAA00',
             type: 'Homework',
             description: 'Released 4/23, due 4/26.',
