@@ -150,7 +150,7 @@ const scheduleEvents =
             description: 'Student Presentation, Lecture',
             items: [
                { label: 'Paper Reference: Mirai', url: 'https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf' }, 
-               { label: 'Lecture: Botnets', url: '' },       // lectures/L11-Criminals.pdf
+               { label: 'Lecture: Botnets', url: 'lectures/L7-Botnets.pdf' },       // lectures/L11-Criminals.pdf
             ]
           },
           {
@@ -161,9 +161,22 @@ const scheduleEvents =
             description: 'Student Presentation, Lecture',
             items: [
                { label: 'Paper Reference: Bullet-Proof', url: 'https://www.usenix.org/system/files/sec19-noroozian.pdf' }, 
-               { label: 'Lecture: Botnets', url: '' },       // lectures/L11-Criminals.pdf
+               { label: 'Lecture: Botnets', url: 'lectures/L11-Criminals.pdf' },       // 
             ]
           },
+          {
+            title: 'HW: Project Milestone',
+            start: '2026-04-23',
+            end: '2026-04-26',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'Released 4/23, due 4/26.',
+            items: [
+              { label: 'Write-Up', url: 'https://docs.google.com/document/d/10_9qkMP7z54jORMbPPgjMqNhmc5jN1SNbAdoTAYgnXk' }
+            ]
+          },
+
+          
           {
             title: 'HoneyPots/Telescopes',
             start: '2026-04-27',
@@ -188,17 +201,6 @@ const scheduleEvents =
             ]  
           },
           {
-            title: 'HW: Presentation Sign Up',
-            start: '2026-04-27',
-            end: '2026-04-29',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'Sign Up for Project Feedback Slot',
-            items: [
-              { label: 'Sign-Up', url: '' }
-            ]  
-          },
-          {
             title: 'Group Presentation Feedback',
             start: '2026-04-29',
             color: '#2b6cb0',
@@ -217,7 +219,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Released 4/29, due 5/5.',
             items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1CxuELae5vj1fZIwIZFMIOz1V7Z9-rqYxv_nXNFhCQzc' }
+              { label: 'Write-Up', url: '' }
             ]
           },
           {
