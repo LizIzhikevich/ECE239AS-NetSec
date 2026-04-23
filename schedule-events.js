@@ -132,7 +132,7 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'HW: Project Check-In',
+            title: 'HW: Project Milestone',
             start: '2026-04-15',
             end: '2026-04-20',
             color: '#EAAA00',
