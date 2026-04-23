@@ -191,8 +191,8 @@ const scheduleEvents =
           },
           {
             title: 'HW: Honeypots',
-            start: '2026-04-27',
-            end: '2026-05-11',
+            start: '2026-05-04',
+            end: '2026-05-18',
             color: '#EAAA00',
             type: 'Homework',
             description: 'HoneyPot Hw Assignment',
@@ -209,17 +209,6 @@ const scheduleEvents =
             items: [
               { label: 'HW: ', url: '' },
               { label: 'Write-Up: ', url: '' },       
-            ]
-          },
-          {
-            title: 'Mid-Point Write-Up Window',
-            start: '2026-04-29',
-            end: '2026-05-06',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'Released 4/29, due 5/5.',
-            items: [
-              { label: 'Write-Up', url: '' }
             ]
           },
           {
@@ -266,17 +255,6 @@ const scheduleEvents =
               { label: 'Lecture: ', url: '' },
               { label: 'Paper Reference: ', url: '' },
             ]
-          },
-          {
-            title: 'HW: GEO Satellites',
-            start: '2026-05-11',
-            end: '2026-05-18',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'Satellite Hw Assignment',
-            items: [
-              { label: 'Instructions:', url: '' }
-            ]  
           },
 
           {
