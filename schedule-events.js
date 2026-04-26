@@ -175,7 +175,30 @@ const scheduleEvents =
               { label: 'Write-Up', url: 'https://docs.google.com/document/d/10_9qkMP7z54jORMbPPgjMqNhmc5jN1SNbAdoTAYgnXk' }
             ]
           },
-
+          {
+            title: 'HW: Presentation Feedback',
+            start: '2026-04-29',
+            end: '2026-04-30',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'Presentation Feedback Form',
+            items: [
+              { label: 'Instructions:', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' }
+            ]  
+          },
+          
+          {
+            title: 'HW: Project Milestone',
+            start: '2026-04-27',
+            end: '2026-04-30',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'Create a draft 5 min presentation following the usual clear presentation rubric.',
+            items: [
+              { label: 'Instructions:', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },
+              { label: 'Clear Presentation Rubric:', url: 'https://docs.google.com/document/d/1qYgbsvrDPedcM9_bq9hP4rQu6RvsNGoCjv-1ignCX8g' },
+            ]  
+          },
           
           {
             title: 'HoneyPots/Telescopes',
@@ -208,7 +231,7 @@ const scheduleEvents =
             description: 'Individual Group Meetings, 1-on-1 Practice Talks',
             items: [
               { label: 'HW: ', url: '' },
-              { label: 'Write-Up: ', url: '' },       
+              { label: 'Write-Up: ', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },       
             ]
           },
           {
