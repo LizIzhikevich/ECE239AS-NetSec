@@ -183,7 +183,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Presentation Feedback Form',
             items: [
-              { label: 'Instructions:', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' }
+              { label: 'Instructions', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' }
             ]  
           },
           
@@ -195,7 +195,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Create a draft 5 min presentation following the usual clear presentation rubric.',
             items: [
-              { label: 'Instructions:', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },
+              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },
               { label: 'Clear Presentation Rubric:', url: 'https://docs.google.com/document/d/1qYgbsvrDPedcM9_bq9hP4rQu6RvsNGoCjv-1ignCX8g' },
             ]  
           },
