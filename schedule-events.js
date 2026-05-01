@@ -213,17 +213,6 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'HW: Honeypots',
-            start: '2026-05-04',
-            end: '2026-05-18',
-            color: '#EAAA00',
-            type: 'Homework',
-            description: 'HoneyPot Hw Assignment',
-            items: [
-              { label: 'Instructions:', url: '' }
-            ]  
-          },
-          {
             title: 'Group Presentation Feedback',
             start: '2026-04-29',
             color: '#2b6cb0',
@@ -246,6 +235,17 @@ const scheduleEvents =
             ]
           },  
           {
+            title: 'HW: Project Milestone',
+            start: '2026-04-30',
+            end: '2026-05-04',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'Finalize midpoint presentation and continue working on paper.',
+            items: [
+              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1ABzdnuTojN7a45pH5TTUZPg9xohkIJjik-FGIZMVdhk/' },
+            ]  
+          },
+          {
             title: 'Content Delivery Networks',
             start: '2026-05-06',
             color: '#2b6cb0',
@@ -256,6 +256,18 @@ const scheduleEvents =
               { label: 'Paper Reference: ', url: '' },        
             ]
           }, 
+          {
+            title: 'HW: Honeypots',
+            start: '2026-05-11',
+            end: '2026-05-18',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'HoneyPot Hw Assignment',
+            items: [
+              { label: 'Instructions:', url: '' }
+            ]  
+          },
+          
           {
             title: 'GEO Satellites Part 1',
             start: '2026-05-11',
