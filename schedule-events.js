@@ -329,25 +329,18 @@ const scheduleEvents =
             description: 'No required reading. Attendance mandatory.'
           },
           {
-            title: 'Final Presentation Window',
+            title: 'Final Presentation',
             start: '2026-05-20',
-            end: '2026-05-31',
+            end: '2026-05-27',
             color: '#EAAA00',
             type: 'Homework',
             description: 'Released 5/20, due 5/27 at 5:00 PM.',
             items: [
-               { label: 'Upload Final Presentation to Gradescope' }
+               { label: 'Upload Final Presentation to Gradescope', url: '' }
             ]
           },
           {
-            title: 'Project Wrap-Up',
-            start: '2026-05-27',
-            color: '#2b6cb0',
-            type: 'Lecture',
-            description: 'Project Group Meetings (See EdStem for more details/expectations)'
-          },
-          {
-            title: 'Final Write Up Upload Window',
+            title: 'Final Write Up',
             start: '2026-05-27',
             end: '2026-06-03',
             color: '#EAAA00',
@@ -358,11 +351,11 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Final Presentations',
+            title: 'TBD',
             start: '2026-06-01',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'No required reading. Attendance mandatory.'
+            description: 'TBD'
           },
           {
             title: 'Reproducibility Report Window',
@@ -376,10 +369,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'Final Presentations',
+            title: 'TBD',
             start: '2026-06-03',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'No required reading. Attendance mandatory.'
+            description: 'TBD.'
           }
         ];
