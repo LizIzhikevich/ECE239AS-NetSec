@@ -322,24 +322,21 @@ const scheduleEvents =
           },
 
           {
-            title: 'TBD: IoT? ML? Scada? ',
+            title: 'Final Presentations',
             start: '2026-05-27',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'Student Presentation, Lecture,Tips for Empirical Writing',
-            items: [
-              { label: 'Tips for Empirical Writing', url: 'https://docs.google.com/document/d/1JDognR_cGMzKXYJN2GZQ1QBnwNwDmhQvXNsDGGvM1EQ' }
-            ]
+            description: 'No required reading. Attendance mandatory.'
           },
           {
-            title: 'Final Write-Up Window',
+            title: 'Final Presentation Window',
             start: '2026-05-20',
             end: '2026-05-31',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Released 5/20, due 5/30 at 5:00 PM.',
+            description: 'Released 5/20, due 5/27 at 5:00 PM.',
             items: [
-              { label: 'Final Write-Up', url: 'https://docs.google.com/document/d/1gc6_w3CW2FM9gI5xktHADuMHtXmvbGZD7RME6_B7M0E' }
+               { label: 'Upload Final Presentation to Gradescope' }
             ]
           },
           {
@@ -350,14 +347,14 @@ const scheduleEvents =
             description: 'Project Group Meetings (See EdStem for more details/expectations)'
           },
           {
-            title: 'Final Presentation Upload Window',
+            title: 'Final Write Up Upload Window',
             start: '2026-05-27',
             end: '2026-06-03',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Released 5/27, due 6/2 at 1:30 PM.',
+            description: 'Due Week 10.',
             items: [
-              { label: 'Upload Final Presentation to Gradescope' }
+              { label: 'Final Write-Up', url: 'https://docs.google.com/document/d/1gc6_w3CW2FM9gI5xktHADuMHtXmvbGZD7RME6_B7M0E' }
             ]
           },
           {
