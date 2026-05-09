@@ -257,7 +257,7 @@ const scheduleEvents =
           {
             title: 'HW: Project Milestone',
             start: '2026-05-06',
-            end: '2026-05-10',
+            end: '2026-05-18',
             color: '#EAAA00',
             type: 'Homework',
             description: 'Work on paper results.',
