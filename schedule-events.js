@@ -139,7 +139,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Released 4/15, due 4/19.',
             items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1FD-LAijSEtChkHpbSfE2p8NLKdKvwEYJjBhJc64tEOo/' }
+              { label: 'HW Instructions', url: 'https://docs.google.com/document/d/1FD-LAijSEtChkHpbSfE2p8NLKdKvwEYJjBhJc64tEOo/' }
             ]
           },
           {
@@ -172,7 +172,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Released 4/23, due 4/26.',
             items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/10_9qkMP7z54jORMbPPgjMqNhmc5jN1SNbAdoTAYgnXk' }
+              { label: 'HW Instructions', url: 'https://docs.google.com/document/d/10_9qkMP7z54jORMbPPgjMqNhmc5jN1SNbAdoTAYgnXk' }
             ]
           },
           {
@@ -183,7 +183,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Presentation Feedback Form',
             items: [
-              { label: 'Instructions', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' }
+              { label: 'HW Instructions', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' }
             ]  
           },
           
@@ -195,7 +195,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Create a draft 5 min presentation following the usual clear presentation rubric.',
             items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },
+              { label: 'HW Instructions', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },
               { label: 'Clear Presentation Rubric:', url: 'https://docs.google.com/document/d/1qYgbsvrDPedcM9_bq9hP4rQu6RvsNGoCjv-1ignCX8g' },
             ]  
           },
@@ -207,9 +207,8 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture', url: '' },
-              { label: 'Paper Reference: Cloud Watching', url: 'https://lizizhikevich.github.io/assets/papers/Cloud_Watching.pdf' }, 
-              { label: 'Project Feedback Sign-Up', url: '' },
+              { label: 'Lecture', url: 'lectures/CloudWatching-IMC.pdf' },
+              { label: 'Paper Reference: Cloud Watching', url: 'https://lizizhikevich.github.io/assets/papers/Cloud_Watching.pdf' }
             ]
           },
           {
@@ -219,8 +218,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Individual Group Meetings, 1-on-1 Practice Talks',
             items: [
-              { label: 'HW: ', url: '' },
-              { label: 'Write-Up: ', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },       
+              { label: 'HW Instructions', url: 'https://docs.google.com/document/d/1HlEA8JXmE4mE70MsJDX3srfOw_qVyaiBUEQjB-F6BD8' },       
             ]
           },
           {
@@ -230,7 +228,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Project Presentation',
             items: [
-              { label: 'Presentation Rubric: ', url: '' },
+              { label: 'Presentation Rubric: ', url: 'https://docs.google.com/document/d/1qYgbsvrDPedcM9_bq9hP4rQu6RvsNGoCjv-1ignCX8g' },
                       
             ]
           },  
@@ -252,17 +250,17 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: ', url: '' }, 
-              { label: 'Paper Reference: ', url: '' },        
+              { label: 'Lecture: ', url: 'L-CDN.pdf' }, 
+              { label: 'Paper Reference: ', url: 'https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-flavel.pdf' },        
             ]
           }, 
           {
-            title: 'HW: Honeypots',
+            title: 'HW: Internet Scanning Analysis',
             start: '2026-05-11',
             end: '2026-05-18',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'HoneyPot Hw Assignment',
+            description: 'Internet Scanning Hw Assignment',
             items: [
               { label: 'Instructions:', url: '' }
             ]  
@@ -275,7 +273,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: GEO Satellites', url: '' },//lectures/L8-GEO.pdf
+              { label: 'Lecture: GEO Satellites', url: 'lectures/GEO.pdf' },//lectures/L8-GEO.pdf
               { label: 'Paper Reference: A Tale of Sea and Sky', url: 'https://ieeexplore.ieee.org/abstract/document/9152624' }
                       
             ]
@@ -285,15 +283,15 @@ const scheduleEvents =
             start: '2026-05-13',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'GEO Satellites, Mid-Point Presentations',
+            description: 'GEO Satellites',
             items: [
-              { label: 'Lecture: ', url: '' },
-              { label: 'Paper Reference: ', url: '' },
+              { label: 'Guest Lecture', url: '' },
+              { label: 'Paper Reference: ', url: 'https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf' },
             ]
           },
 
           {
-            title: 'LEO Satellites Networking',
+            title: 'LEO Satellites Part 1',
             start: '2026-05-18',
             color: '#2b6cb0',
             type: 'Lecture',
@@ -304,7 +302,7 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'LEO Satellites Security',
+            title: 'LEO Satellites Part 2',
             start: '2026-05-20',
             color: '#2b6cb0',
             type: 'Lecture',
