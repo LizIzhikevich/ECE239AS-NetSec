@@ -240,9 +240,9 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Finalize midpoint presentation and continue working on paper.',
             items: [
-              { label: 'Write-Up', url: 'https://docs.google.com/document/d/1ABzdnuTojN7a45pH5TTUZPg9xohkIJjik-FGIZMVdhk/' },
+              { label: 'HW Instructions', url: 'https://docs.google.com/document/d/1ABzdnuTojN7a45pH5TTUZPg9xohkIJjik-FGIZMVdhk/' },
             ]  
-          },
+          },          
           {
             title: 'Content Delivery Networks',
             start: '2026-05-06',
@@ -255,6 +255,17 @@ const scheduleEvents =
             ]
           }, 
           {
+            title: 'HW: Project Milestone',
+            start: '2026-05-06',
+            end: '2026-05-10',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'Work on paper results.',
+            items: [
+              { label: 'HW Instructions', url: 'https://docs.google.com/document/d/1tankZy_nv4pRjPMhweIxRTccu6p17RyX6pZ17UOWhy0' },
+            ]  
+          },          
+          {
             title: 'HW: Internet Scanning Analysis',
             start: '2026-05-11',
             end: '2026-05-18',
@@ -262,7 +273,7 @@ const scheduleEvents =
             type: 'Homework',
             description: 'Internet Scanning Hw Assignment',
             items: [
-              { label: 'Instructions:', url: '' }
+              { label: 'HW Instructions:', url: '' }
             ]  
           },
           
