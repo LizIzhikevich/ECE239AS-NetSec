@@ -267,8 +267,8 @@ const scheduleEvents =
           },          
           {
             title: 'HW: Internet Scanning Analysis',
-            start: '2026-05-11',
-            end: '2026-05-18',
+            start: '2026-05-18',
+            end: '2026-05-25',
             color: '#EAAA00',
             type: 'Homework',
             description: 'Internet Scanning Hw Assignment',
