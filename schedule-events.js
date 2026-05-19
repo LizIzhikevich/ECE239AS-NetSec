@@ -266,14 +266,15 @@ const scheduleEvents =
             ]  
           },          
           {
-            title: 'HW: Internet Scanning Analysis',
+            title: 'HW: LEO Network Measurement',
             start: '2026-05-18',
             end: '2026-05-25',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Internet Scanning Hw Assignment',
+            description: 'LEO Network Hw Assignment',
             items: [
-              { label: 'HW Instructions:', url: '' }
+              { label: 'HW: Leo', url: 'HWs/ECE239_leo.pdf' },
+              { label: 'HW: AI-Assist Report', url: 'https://docs.google.com/document/d/1NbkWGtgttUZTVMKl-68MBHyLQ-gPAScSuFN8pgOm-3Y' },
             ]  
           },
           
