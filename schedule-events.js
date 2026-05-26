@@ -362,7 +362,7 @@ const scheduleEvents =
           },
           {
             title: 'Final Write Up',
-            start: '2026-05-27',
+            start: '2026-06-01',
             end: '2026-06-08',
             color: '#EAAA00',
             type: 'Homework',
