@@ -350,6 +350,17 @@ const scheduleEvents =
             ]
           },
           {
+            title: 'Final Draft of Write Up',
+            start: '2026-05-27',
+            end: '2026-06-01',
+            color: '#EAAA00',
+            type: 'Homework',
+            description: 'Due by Monday Class Time.',
+            items: [
+              { label: 'Final Draft Write-Up', url: 'https://docs.google.com/document/d/1AVgHjbP6g6UI_EceP7BtnYaXqyga3-UPnzkhxcizNVk' }
+            ]
+          },
+          {
             title: 'Final Write Up',
             start: '2026-05-27',
             end: '2026-06-08',
@@ -361,11 +372,11 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'TBD',
+            title: 'Group Project Work Time',
             start: '2026-06-01',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'TBD'
+            description: 'Active learning session with your group to work on project.'
           },
           {
             title: 'Reproducibility Report Window',
@@ -379,10 +390,10 @@ const scheduleEvents =
             ]
           },
           {
-            title: 'TBD',
+            title: 'In-Person Project Advising',
             start: '2026-06-03',
             color: '#2b6cb0',
             type: 'Lecture',
-            description: 'TBD.'
+            description: 'In-Person Project Advising.'
           }
         ];
