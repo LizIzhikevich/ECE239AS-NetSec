@@ -352,10 +352,10 @@ const scheduleEvents =
           {
             title: 'Final Write Up',
             start: '2026-05-27',
-            end: '2026-06-03',
+            end: '2026-06-08',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Due Week 10.',
+            description: 'Due by Finals Week.',
             items: [
               { label: 'Final Write-Up', url: 'https://docs.google.com/document/d/1gc6_w3CW2FM9gI5xktHADuMHtXmvbGZD7RME6_B7M0E' }
             ]
@@ -370,10 +370,10 @@ const scheduleEvents =
           {
             title: 'Reproducibility Report Window',
             start: '2026-06-01',
-            end: '2026-06-07',
+            end: '2026-06-11',
             color: '#EAAA00',
             type: 'Homework',
-            description: 'Released 6/1, due 6/6 at 5:00 PM.',
+            description: 'Released 6/1, due 6/10 at 5:00 PM.',
             items: [
               { label: 'Reproducibility Report', url: 'https://docs.google.com/document/d/1HPK7ZLOh80HR8d0MjcAZ1jmgFhC-dJ2HDKhRvbBz0ls/' }
             ]
