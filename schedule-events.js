@@ -106,7 +106,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation, Lecture',
             items: [
-              { label: 'Lecture: Routing Security', url: 'lectures/L4-RoutingSecurity' },
+              { label: 'Lecture: Routing Security', url: 'lectures/L4-RoutingSecurity.pdf' },
             ]
           },
           {
