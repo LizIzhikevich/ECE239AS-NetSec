@@ -309,7 +309,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation,Lecture',
             items: [
-              { label: 'Lecture: LEO Satellites', url: '' }, //lectures/L10-LEO.pdf
+              { label: 'Lecture: LEO Satellites Part 1', url: 'lectures/L10-LEO-HitchHiking.key' },
               { label: 'Paper Reference: LEO HitchHiking', url: 'https://lizizhikevich.github.io/assets/papers/LEO-HitchHiking.pdf' }
             ]
           },
@@ -320,7 +320,7 @@ const scheduleEvents =
             type: 'Lecture',
             description: 'Student Presentation,Lecture',
             items: [
-              { label: 'Lecture: LEO Satellites', url: '' } //lectures/L10-LEO.pdf
+              { label: 'Lecture: LEO Satellites Part 2', url: 'lectures/L10-LEO-Video.key' }
             ]
           },
           {
