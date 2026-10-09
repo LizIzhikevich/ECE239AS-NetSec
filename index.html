@@ -51,9 +51,36 @@
         const weekStart = value => { const date = new Date(value + 'T00:00:00Z'); date.setUTCDate(date.getUTCDate() - ((date.getUTCDay() + 6) % 7)); return date.toISOString().slice(0, 10); };
         const inclusiveEnd = value => { const date = new Date(value + 'T00:00:00Z'); date.setUTCDate(date.getUTCDate() - 1); return date.toISOString().slice(0, 10); };
         const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
-        const resource = item => { const url = item.url === 'L-CDN.pdf' ? 'lectures/L-CDN.pdf' : item.url; return '<li>' + (url ? '<a href="' + escape(url) + '">' + escape(item.label) + '</a>' : escape(item.label)) + '</li>'; };
-        const lecture = item => '<article class="schedule-item ' + (item.type === 'No Class' ? 'holiday' : '') + '"><h4>' + displayDate(item.start) + ' · ' + escape(item.title) + '</h4><p>' + escape(item.description || '') + '</p>' + (item.items && item.items.length ? '<ul class="resource-list">' + item.items.map(resource).join('') + '</ul>' : '') + '</article>';
-        const deadline = item => '<section class="deadline-item"><h4>' + displayDate(item.start) + (item.end && inclusiveEnd(item.end) !== item.start ? ' – ' + displayDate(inclusiveEnd(item.end)) : '') + ' · ' + escape(item.title) + '</h4><p>' + escape(item.description || '') + '</p>' + (item.items && item.items.length ? '<ul class="resource-list">' + item.items.map(resource).join('') + '</ul>' : '') + '</section>';
+        const resourceLabel = (item, event) => {
+          const label = item.label.trim();
+          const contextual = {
+            'Paper:How to Read a Paper': 'Reading: How to Read a Paper',
+            'Clear Presentation Rubric:': 'Clear Presentation Rubric',
+            'Presentation Rubric:': 'Presentation Rubric',
+            'HW: Leo': 'Homework: LEO Network Measurement'
+          };
+          if (contextual[label]) return contextual[label];
+          if (label === 'Lecture' || label === 'Lecture:') return 'Lecture: ' + event.title;
+          if (event.title === 'Bullet-Proof Hosting' && label === 'Lecture: Botnets') return 'Lecture: Security, eCrime, Spam Attacks';
+          if (event.title === 'Content Delivery Networks' && label === 'Paper Reference:') return 'Paper Reference: FastRoute: A Scalable Load-Aware Anycast Routing Architecture for Modern CDNs';
+          if (event.title === 'GEO Satellites Part 2' && label === 'Paper Reference:') return 'Paper Reference: Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites';
+          if (label === 'Sign-Up') return event.title === 'HW: Presentation Sign Up' ? 'Presentation Sign-Up' : 'Project Group Sign-Up';
+          if (label === 'Instructions') return 'Project Proposal Instructions';
+          if (label === 'HW Instructions') return event.title === 'Group Presentation Feedback' ? 'Presentation Feedback Instructions' : event.title.replace(/^HW: /, '') + ' Instructions';
+          if (label.indexOf('HW:') === 0) return 'Homework:' + label.slice(3);
+          return label;
+        };
+        const resourceRank = item => {
+          const label = item.label.trim();
+          if (label.indexOf('Lecture') === 0 || label === 'Guest Lecture') return 0;
+          if (label.indexOf('Paper') === 0) return 1;
+          if (label.indexOf('Student Presentation') === 0) return 2;
+          return 3;
+        };
+        const resource = (item, event) => { const url = item.url === 'L-CDN.pdf' ? 'lectures/L-CDN.pdf' : item.url; const label = resourceLabel(item, event); return '<li>' + (url ? '<a href="' + escape(url) + '">' + escape(label) + '</a>' : escape(label)) + '</li>'; };
+        const lectureDescription = item => (item.description === 'Student Presentation, Lecture' || item.description === 'Student Presentation,Lecture') ? 'Student presentation and lecture.' : item.description || '';
+        const lecture = item => '<article class="schedule-item ' + (item.type === 'No Class' ? 'holiday' : '') + '"><h4>' + displayDate(item.start) + ' · ' + escape(item.title) + '</h4><p>' + escape(lectureDescription(item)) + '</p>' + (item.items && item.items.length ? '<ul class="resource-list">' + item.items.slice().sort((a, b) => resourceRank(a) - resourceRank(b)).map(entry => resource(entry, item)).join('') + '</ul>' : '') + '</article>';
+        const deadline = item => '<section class="deadline-item"><h4>' + displayDate(item.start) + (item.end && inclusiveEnd(item.end) !== item.start ? ' – ' + displayDate(inclusiveEnd(item.end)) : '') + ' · ' + escape(item.title) + '</h4><p>' + escape(item.description || '') + '</p>' + (item.items && item.items.length ? '<ul class="resource-list">' + item.items.map(entry => resource(entry, item)).join('') + '</ul>' : '') + '</section>';
         const groups = new Map();
         scheduleEvents.forEach(item => { const key = weekStart(item.start); if (!groups.has(key)) groups.set(key, []); groups.get(key).push(item); });
         [...groups.entries()].sort(([a], [b]) => a.localeCompare(b)).forEach(([start, entries], index) => {
